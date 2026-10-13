@@ -1,0 +1,18 @@
+.text{
+    font-weight: 1000;
+}
+
+.para{
+    color: blue;
+}
+
+.three{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.generic{
+    text-decoration: underline dashed;
+    color: magenta;
+}
