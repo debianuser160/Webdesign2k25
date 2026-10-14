@@ -1,0 +1,13 @@
+.text{
+    /* border: thickness pattern color; */
+    border: 1px solid black;
+    padding: 20px;
+    margin: 30px;
+}
+
+div{
+    border-top: 3px dotted green;
+    border-bottom: 5px double chocolate;
+    border-left: 2px solid blue;
+    border-right: 2px dashed fuchsia;
+}
