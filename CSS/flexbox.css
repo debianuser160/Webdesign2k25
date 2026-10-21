@@ -1,0 +1,12 @@
+.parent-container{
+    border: 2px black dashed;
+    display: flex;
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    color: white;
+    border: yellow dotted;
+}
