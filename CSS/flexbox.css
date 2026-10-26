@@ -1,12 +1,25 @@
+/* Justify content and align items are dependent on flex */
+
 .parent-container{
     border: 2px black dashed;
     display: flex;
+    /* Justify content is used for horizontal movement in a flexbox*/
+    justify-content: center;
+    height: 500px;
+    /* Align Items is for Vertical movement in a flexbox */
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    
 }
 
 .child{
+    display: flex;
     height: 100px;
     width: 100px;
-    background-color: brown;
+    background-color:  brown;
     color: white;
-    border: yellow dotted;
+    justify-content: center;
+    align-items: center;
+    
 }

@@ -1,0 +1,36 @@
+.container{
+    border: 2px solid black;
+    display: flex;
+    border-radius: 50px;
+    width: 400px;
+    margin-left: 450px;
+    margin-top: 300px;
+    /* gap: 50px; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.children{
+    font-weight: lighter;
+    padding-top: 18px;
+    
+}
+
+.children a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.middle{
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 50px;
+    padding:  18px 18px 18px ;
+    border-top: -1px;
+}
+
+.middle a{
+    color: white;
+}

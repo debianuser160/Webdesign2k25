@@ -1,0 +1,18 @@
+ul{
+    display: flex;
+    list-style-type: none;
+    /* width: 300px; */
+    /* border: 1px solid black; */
+    /* justify-content: space-between; */
+    gap: 20px;
+    
+}
+a{
+    color: #777;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    border-bottom: 1px solid red;
+}

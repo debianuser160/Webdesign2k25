@@ -1,0 +1,20 @@
+body{
+    background: linear-gradient(to left, #13677b,#03222e);
+}
+
+.main_container{
+    border: 1px solid #4e9bb0;
+    width: 200px;
+    margin-top: 250px;
+    margin-left: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    backdrop-filter: blur(100px);
+}
+
+.icon{
+    font-size: 25px;
+    color: whitesmoke;
+}
+
