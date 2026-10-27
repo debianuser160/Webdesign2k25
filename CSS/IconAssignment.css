@@ -1,20 +1,38 @@
 body{
-    background: linear-gradient(to left, #13677b,#03222e);
+    background: linear-gradient(to right, #13677b,#03222e);
 }
 
 .main_container{
     border: 1px solid #4e9bb0;
-    width: 200px;
-    margin-top: 250px;
-    margin-left: 350px;
+    width: 350px;
+    margin-top: 300px;
+    margin-left: 200px;
     display: flex;
     justify-content: space-evenly;
     border-radius: 20px;
     backdrop-filter: blur(100px);
+    align-items: baseline;
+    /* background: linear-gradient(to left, #13677b,#2b3b3d 20%); */
+    background-color: rgba(19, 103, 123, 0.5);
 }
 
 .icon{
-    font-size: 25px;
+    font-size: 27px;
     color: whitesmoke;
+}
+
+
+.home-icon{
+    border: 1px solid cadetblue;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-right:  15px;
+    padding-bottom:  8px;
+    padding-left:  15px;
+    padding-top:  8px;
+    background-color: rgba(43, 59, 61, 0.5);    
+    backdrop-filter: blur(50px);
 }
 
