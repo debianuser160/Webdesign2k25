@@ -1,0 +1,252 @@
+
+
+
+
+.navbar {
+    display: inline-block;
+    /* border: 1px dashed black; */
+    align-items: first baseline;
+    justify-content: baseline;
+    position: relative;
+    top: 0;
+    width: 99%;
+}
+
+.left-navbar{
+    display: inline-block;
+    margin-left: 70px;
+    word-spacing: 10px;
+}
+
+.left-navbar a{
+
+    transition: 300ms ease all;
+}
+.left-navbar a:hover{
+    transform: rotateY(180deg);
+    border-radius: 50px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+
+.right-navbar{
+    display: inline-block;
+    margin-left: 350px;
+    word-spacing: 20px;
+}
+
+.right-navbar a{
+
+    transition: 300ms ease all;
+}
+.right-navbar a:hover{
+    transform: rotateY(180deg);
+    border-radius: 50px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.navbar a:hover{
+    transform: rotateY(180deg);
+}
+
+.title-text{
+    display: inline-block;
+    font-weight: lighter;
+    margin-left: 320px;
+}
+
+.browse-section{
+    position: relative;
+    top: 0;
+    /* margin-left:  auto; */
+}
+
+.left-browse{
+    display: inline-block;
+    width: 45%;
+    vertical-align: text-bottom;
+    word-wrap: break-word;
+    
+}
+
+.left-browse h1{
+    font-weight: lighter;
+    font-size: 55px;
+    margin-top: 66px;
+    margin-left: 55px;
+}
+
+.random-bs{
+    margin-top: 0px;
+    margin-left: 55px;
+}
+
+.buttons{
+    margin-left: 55px;
+}
+
+button{
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: 1px solid gray;
+}
+
+.browse{
+    background-color: black;
+    color: white;
+    transition:  500ms ease all;
+}
+
+.browse:hover{
+    transform: rotateX(180deg);
+    background-color: white;
+    color: black;
+    text-transform: none;
+}
+
+.browse span{
+    display: inline-block;
+    transition:  500ms ease all;
+
+}
+
+.browse:hover span{
+    transform: rotateX(-180deg);
+}
+
+.about{
+    background-color: white;
+    transition: 500ms ease all;
+}
+
+.about:hover{
+    transform: rotateZ(180deg);
+    background-color: black;
+    color: white;
+}
+
+.about span{
+    display: inline-block;
+    transition: 500ms ease all;
+}
+
+.about:hover span{
+    transform: rotateZ(-180deg);
+}
+
+.right-browse{
+    display: inline-block;
+    width: 50%;
+    text-align: end;
+    margin-left: 45px;
+}
+
+.right-browse img{
+    width: 100%;
+}
+
+.category-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(2, 500px);
+    column-gap: 50px;
+    row-gap: 50px;
+    justify-content: center;
+    align-content: center;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    width: auto;
+}
+
+.cat-grid{
+    border-radius: 50px;
+    padding: 30px;
+    background-color: #f7f7f7;
+    overflow: hidden;
+}
+
+.cat-grid a{
+    text-decoration: none;
+    color: black;
+    transition: 50ms ease-in-out all;
+}
+
+.cat-grid a:hover{
+    font-weight: bold;
+    border: solid black;
+    background-color: black;
+    padding: 5px;
+    border-radius: 50px;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+
+.search-nav{
+    display: flex;
+    margin-left: 50px;
+}
+
+.search-nav p{
+    word-spacing: 10px;
+}
+
+hr{
+    width: 92.7%;
+}
+
+input{
+    margin-left: auto;
+    margin-right: 48px;
+    width: 350px;
+    border: none;
+    border-radius: 15px;
+    transition: 600ms ease all;
+    padding: 10px;
+}
+
+.input:hover{
+    transform: scaleX(12px);
+    
+}
+
+.bottom{
+    display: grid;
+    /* grid-template-columns: repeat(3,1fr); */
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    /* gap: 20px; */
+    /* align-items: center; */
+    justify-content: center;
+    align-content: center;
+    width: auto;
+    margin-left: 45px;
+}
+
+.bottom img{
+    /* border: 1px solid black; */
+    background-color: #f7f7f7;
+    border-radius: 50px;
+}
+
+.bottle{
+    display: inline-block;
+}
+
+.mouse{
+    display: inline-block;
+}
+
+.speaker{
+    display: inline-block;
+}

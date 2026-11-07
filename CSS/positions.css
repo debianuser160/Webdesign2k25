@@ -1,0 +1,38 @@
+body{
+    height: 200vh;
+}
+
+.parent{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    position: sticky;
+    top: 0;
+}
+
+.child{
+    width: 60px;
+    height: 60px;
+}
+
+.box1{
+    background-color: red;
+    color: black;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.box2{
+    background-color: blue;
+    color: white;
+}
+.box3{
+    background-color: yellow;
+    color: black;
+    position: fixed;
+    right: 0;
+    bottom: 120px;
+    
+}
+

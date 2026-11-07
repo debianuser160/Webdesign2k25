@@ -1,0 +1,190 @@
+/* CSS HEX
+--carbon-black: #202123ff;
+--onyx: #171617ff;
+--onyx-2: #151618ff;
+--platinum: #EEEDEEff;
+--carbon-black-2: #161719ff;
+--pale-slate: #C8CFD8ff; */
+
+
+
+.topbar{
+    /* position: fixed;  */
+    display: flex;
+    align-items: baseline;
+    background-color: #F3F3F3;
+    font-weight: bold;
+}
+
+.menu-bar{
+    margin-left: 30px;
+}
+
+a:hover{
+    color: gray;
+}
+
+
+.back-btn{
+    margin-left: 50px;
+}
+
+.cart-btn{
+    margin-left: 440px;
+    border: none;
+    background: none;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.Alpine{
+    font-family: 'Eurostile', 'Microgramma', 'Bank Gothic', sans-serif;
+    margin-left: 480px;
+    letter-spacing: 6px;
+    font-weight: 700;
+}
+
+.sunglasses-section {
+  background-color: #f3f3f3;
+  padding: 40px;
+  /* width: 900px; */
+  /* margin: 0 auto; */
+}
+
+.left-box {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.right-box {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+
+.right-box img {
+  width: 100%;
+}
+
+.left-box h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.left-box p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.buy-btn {
+  /* position: absolute;
+  top: 0;*/
+  display: inline-block;
+  border: 1px solid #1a237e;
+  color: #1a237e;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.bottom-bar {
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+.details {
+  float: left;
+}
+
+.numbers {
+  float: right;
+}
+
+.numbers span {
+  margin-left: 8px;
+}
+
+.numbers .line {
+  color: #888;
+}
+
+.numbers .arrow {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+.middle-words{
+  margin-top: 15px;
+  margin-left: 500px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.products{
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  column-gap: 15px;
+  row-gap: 15px;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.product{
+    border: 1px solid black;
+    background-color: #f3f3f3;
+    /* border: none; */
+    /* height: 100px ; */
+    /* width: auto; */
+}
+
+
+.belt-sect{
+  text-align: center;
+  font-weight: bold;
+}
+
+.belt{
+  width: 300px;
+  height: 150px;
+  
+}
+
+.phone-case{
+  text-align: center;
+  font-weight: bold;
+}
+
+.case{
+  width: 300px;
+  height: 150px;
+}
+
+.black-gloves{
+  text-align: center;
+  font-weight: bold;
+}
+
+.gloves{
+  width: 300px;
+  height: 150px;
+}
+
+.flash{
+  text-align: center;
+  font-weight: bold;
+}
+
+.flash-drive{
+  width: 300px;
+  height: 150px;
+}

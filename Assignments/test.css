@@ -1,0 +1,82 @@
+/* Container holding everything */
+.sunglasses-section {
+  background-color: #f3f3f3;
+  padding: 40px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* Blocks for Left and Right side layout */
+.left-box {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.right-box {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+}
+
+.right-box img {
+  width: 100%;
+}
+
+/* Headings, Paragraph, and Button */
+.left-box h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.left-box p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.buy-btn {
+  display: inline-block;
+  border: 1px solid #1a237e;
+  color: #1a237e;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Bottom Bar Styling */
+.bottom-bar {
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+.details {
+  float: left;
+}
+
+.numbers {
+  float: right;
+}
+
+.numbers span {
+  margin-left: 8px;
+}
+
+.numbers .line {
+  color: #888;
+}
+
+.numbers .arrow {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Clear floating elements after bottom-bar */
+.bottom-bar::after {
+  content: "";
+  display: table;
+  clear: both;
+}
