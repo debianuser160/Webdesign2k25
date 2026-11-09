@@ -1,0 +1,11 @@
+:root{
+    --fontSize: 30px;
+    --bgColor: green;
+    --bdrRadius: 20px;
+    --border: 1px solid black;
+    --transition: 2000ms all ease;
+}
+
+.text{
+    font-size: var(--fontSize);
+}
